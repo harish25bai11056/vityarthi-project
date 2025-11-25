@@ -15,10 +15,10 @@ R-PATS is a modular desktop application built with Python and SQLite. It streaml
 
 * ## Steps to Install & Run
 
-### 1.Clone the repository:
+### 1. Clone the repository:
 git clone <repository-url>
 cd R-PATS
-### 2.Run the main application:
+### 2. Run the main application:
 python main.py
 (The database file student_research.db will be created automatically).
 
