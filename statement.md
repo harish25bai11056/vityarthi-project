@@ -7,16 +7,16 @@ This manual approach leads to data redundancy, difficulty in tracking the real-t
 
 * ## Scope of the Project
 The project focuses on the administrative management of student research metadata. It covers the lifecycle of a paper from initial submission to final approval.
-1.In Scope: Student registration, Paper metadata storage, Workflow status updates, Compliance reporting, Data persistence.
-2.Out of Scope: Storage of physical PDF files (file handling), Cloud hosting, User authentication.
+1. In Scope: Student registration, Paper metadata storage, Workflow status updates, Compliance reporting, Data persistence.
+2. Out of Scope: Storage of physical PDF files (file handling), Cloud hosting, User authentication.
 
 * ## Target Users
-1.Department Administrator: To manage student records and generate reports.
-2.Faculty Reviewer: To update the status of papers based on review outcomes.
-3.Compliance Officer: To view statistics on how many students have successfully published.
+1. Department Administrator: To manage student records and generate reports.
+2. Faculty Reviewer: To update the status of papers based on review outcomes.
+3. Compliance Officer: To view statistics on how many students have successfully published.
 
 * ## High-Level Features
-1.Data Persistence: Uses SQLite to store records permanently.
-2.Workflow Management: Validates status transitions (e.g., Submitted -> Under Review -> Approved).
-3.Search & Retrieval: Instant lookup of records via Registration Number.
-4.Analytics: Automated calculation of department-wide approval rates.  
+1. Data Persistence: Uses SQLite to store records permanently.
+2. Workflow Management: Validates status transitions (e.g., Submitted -> Under Review -> Approved).
+3. Search & Retrieval: Instant lookup of records via Registration Number.
+4. Analytics: Automated calculation of department-wide approval rates.  
